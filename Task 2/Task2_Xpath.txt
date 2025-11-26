@@ -1,0 +1,16 @@
+N1-
+Namespace difference
+
+B1: prefixed namespace (ns0:RootElement)
+
+B2: default namespace (RootElement)
+
+Attribute difference
+
+B1: Code="B1"
+
+B2: Code="B2"
+
+N2
+
+/*[local-name() = "RootElement"]/Child_Element/@Code

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEST_DOCUMENT>
+    <IDOC SEGMENT="1">
+        <ELEMENT1 SEGMENT="1" VALLL="Valll" TEST="Test" EMPTY="">
+            <ELEMENT1A SEGMENT="1" VAL4="Value4">
+                <ELEMENT1A_A SEGMENT="1" VAL1="Value1" VAL2="Value2" VAL3="Value3"/>
+            </ELEMENT1A>
+            <ELEMENT1A SEGMENT="1" VAL4="Value4">
+                <ELEMENT1A_A SEGMENT="1" VAL1="Value1_4" VAL2="Value2_5" VAL3="Value3_6"/>
+            </ELEMENT1A>
+            <ELEMENT2A SEGMENT="1" VAL4="Value4_ZZ">
+                <ELEMENT2A_A SEGMENT="1" VAL1="Value1_A" VAL2="Value2_B" VAL3="Value3_C"/>
+            </ELEMENT2A>
+        </ELEMENT1>
+    </IDOC>
+</TEST_DOCUMENT>

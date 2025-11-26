@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Education>
+    <Country name="Small_Country">
+       <City name="Big_City_in_Small_Country">
+           <Organization type="Kinderdarten" id="1">
+               <Person id="1" Name="Jason" Surname="Green" BirthYear="2020"/>
+               <Person id="2" Name="Thomas" Surname="Stevenson" BirthYear="2021"/>
+           </Organization>  
+         <Organization type="School" id="1">
+             <Person id="1" Name="Ivan" Surname="Ivanov" BirthYear="2010"/>
+             <Person id="2" Name="Petr" Surname="Lebedev" BirthYear="2012"/>
+             <Person id="3" Name="Vasiliy" Surname="Terkin" BirthYear="2015"/>
+         </Organization>   
+           <Organization type="School" id="2">
+               <Person id="1" Name="David" Surname="Antanesyan" BirthYear="2010"/>
+               <Person id="2" Name="Lev" Surname="Trotsky" BirthYear="2011"/>
+               <Person id="3" Name="Forrest" Surname="Gump" BirthYear="2010"/>
+           </Organization>   
+          <Organization type="University" id="1">
+              <Person id="1" Name="Tina" Surname="McMerphy" BirthYear="2005"/>
+              <Person id="2" Name="Petr" Surname="Romanov" BirthYear="2006"/>
+              <Person id="3" Name="Vasiliy" Surname="Sidorov" BirthYear="2005"/>
+              <Person id="4" Name="Sam" Surname="Brown" BirthYear="2009"/>
+          </Organization>         
+       </City> 
+        
+        <City name="Small_Village_In_Small_Country">
+            <Organization type="Kinderdarten" id="2">
+                <Person id="1" Name="Zurab" Surname="Ivanashvili" BirthYear="2022"/>
+                <Person id="2" Name="Michael" Surname="White" BirthYear="2021"/>
+            </Organization>         
+            <Organization type="School" id="3">
+                <Person id="1" Name="Udo" Surname="Hertz" BirthYear="2005"/>               
+            </Organization>         
+        </City> 
+    </Country>
+    
+    
+    <Country name="Big_Country">
+        <City name="Big_City_in_Big_Country">
+            <Organization type="Kinderdarten" id="1">
+                <Person id="1" Name="Fedor" Surname="Petrov" BirthYear="2020"/>
+                <Person id="2" Name="Piter" Surname="Andersson" BirthYear="2021"/>
+                <Person id="3" Name="Frank" Surname="Porter" BirthYear="2021"/>
+                <Person id="4" Name="Aglaya" Surname="Borisova" BirthYear="2021"/>
+                <Person id="5" Name="Boris" Surname="Ivanov" BirthYear="2021"/>
+                
+            </Organization>  
+            <Organization type="School" id="1">
+                <Person id="1" Name="Ivan" Surname="Arbozov" BirthYear="2010"/>
+                <Person id="2" Name="Sergey" Surname="Danilov" BirthYear="2012"/>
+                <Person id="3" Name="Vasiliy" Surname="Sergeev" BirthYear="2015"/>
+            </Organization>   
+            <Organization type="School" id="2">
+                <Person id="1" Name="David" Surname="Einstein" BirthYear="2010"/>
+                <Person id="2" Name="Vladimir" Surname="Ivanov" BirthYear="2011"/>
+                <Person id="3" Name="Marty" Surname="McFly" BirthYear="2010"/>
+            </Organization>   
+            <Organization type="University" id="1">
+                <Person id="1" Name="Tina" Surname="McMerphy" BirthYear="2000"/>
+                <Person id="2" Name="Petr" Surname="Romanov" BirthYear="2006"/>
+                <Person id="3" Name="Vasiliy" Surname="Sidorov" BirthYear="2005"/>
+                <Person id="4" Name="Sam" Surname="Brown" BirthYear="2007"/>
+            </Organization>         
+        </City> 
+        
+        <City name="Small_Village_In_Big_Country">
+            <Organization type="Kinderdarten" id="2"/>
+            <Organization type="School" id="3">
+                <Person id="1" Name="Steven" Surname="Wagner" BirthYear="2005"/>               
+            </Organization>         
+        </City> 
+        
+        <City name="Another_Small_Village_In_Big_Country">
+            
+            <Organization type="School" id="4">
+                <Person id="1" Name="Peter" Surname="Baltes" BirthYear="2005"/>               
+            </Organization>         
+        </City> 
+        
+        
+        <City name="Very_Very_Small_Village_In_Big_Country">
+            <Organization type="Kinderdarten" id="3"/>
+            <Organization type="School" id="5"/>
+               
+        </City> 
+        
+    </Country>
+    
+</Education>

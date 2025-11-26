@@ -1,0 +1,6 @@
+N1
+/Education/Country/City[not(Organization[@type="Kinderdarten"])]
+N2
+/Education/Country/City[Organization[@type='Kinderdarten'][not(Person)]]/@name
+N3
+/Education/Country[City/Organization[@type="University"]/Person[not(@BirthYear < //@Person/@BirthYear)]]/@name

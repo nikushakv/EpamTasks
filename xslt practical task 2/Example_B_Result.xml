@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PaymentResultList xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <Payments CustomerID="A" ResultAmount="64" PaymentsCount="6"/>
+    <Payments CustomerID="B" ResultAmount="28" PaymentsCount="3"/>
+    <Payments CustomerID="C" ResultAmount="4" PaymentsCount="2"/>
+    <Payments CustomerID="Z" ResultAmount="25" PaymentsCount="1"/>
+</PaymentResultList>

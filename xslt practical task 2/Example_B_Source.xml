@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PaymentList>
+    <PaymentItem id="01" CustomerID="A" Amount="2"/>
+    <PaymentItem id="02" CustomerID="B" Amount="12"/>
+    <PaymentItem id="03" CustomerID="A" Amount="22"/>
+    <PaymentItem id="04" CustomerID="A" Amount="11"/>
+    <PaymentItem id="05" CustomerID="B" Amount="4"/>
+    <PaymentItem id="06" CustomerID="C" Amount="2"/>
+    <PaymentItem id="07" CustomerID="B" Amount="12"/>
+    <PaymentItem id="08" CustomerID="A" Amount="24"/>
+    <PaymentItem id="09" CustomerID="A" Amount="1"/>
+    <PaymentItem id="10" CustomerID="A" Amount="4"/>
+    <PaymentItem id="11" CustomerID="C" Amount="2"/>   
+    <PaymentItem id="11" CustomerID="Z" Amount="25"/>   
+    
+</PaymentList>

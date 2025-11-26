@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="MyCar" type="Car"/>
+
+    <xs:complexType name="Car">
+        <xs:sequence>
+            <xs:element name="Engine" minOccurs="1" maxOccurs="2">
+                <xs:complexType>
+                    <xs:attribute name="Fuel" type="EngineFuel" use="required"/>
+                    <xs:attribute name="Power" type="EnginePower" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="BodyColor" type="Color" use="required"/>
+        <xs:attribute name="ModelName" type="Model" use="required"/>
+        <xs:attribute name="Comment" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:simpleType name="EngineFuel">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Diesel"/>
+            <xs:enumeration value="Gasoline"/>
+            <xs:enumeration value="Electric"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnginePower">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Color">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Red"/>
+            <xs:enumeration value="Green"/>
+            <xs:enumeration value="Black"/>
+            <xs:enumeration value="White"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Model">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>

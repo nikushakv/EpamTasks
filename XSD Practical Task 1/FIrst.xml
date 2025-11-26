@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cars>
+<MyCar ModelName= " Tesla model 3 " Bodycolor="red" comment="Electro">
+      <Engine Fuel="Electric" Power="350" /  >
+      <Engine Fuel ="Electric" Power="200" / >
+ </MyCar> 
+
+
+ <MyCar ModelName="Prius C" BodyColor="White" Comment="Hybrid" >
+    <Engine Fuel="Electric" Power="350 " />
+ </MyCar/>
+</Cars>  

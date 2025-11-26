@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEST_DOCUMENT>
+ <IDOC SEGMENT="1">
+    <ELEMENT1 SEGMENT="1">
+        <ELEMENT1A SEGMENT="1">
+            <ELEMENT1A_A SEGMENT="1">
+                <VAL1>Value1</VAL1>
+                <VAL2>Value2</VAL2>
+                <VAL3>Value3</VAL3>
+            </ELEMENT1A_A>
+            <VAL4>Value4</VAL4> 
+        </ELEMENT1A>
+        <ELEMENT1A SEGMENT="1">
+            <ELEMENT1A_A SEGMENT="1">
+                <VAL1>Value1_4</VAL1>
+                <VAL2>Value2_5</VAL2>
+                <VAL3>Value3_6</VAL3>
+            </ELEMENT1A_A>
+            <VAL4>Value4</VAL4> 
+        </ELEMENT1A>
+        
+        <ELEMENT2A SEGMENT="1">
+            <ELEMENT2A_A SEGMENT="1">
+                <VAL1>Value1_A</VAL1>
+                <VAL2>Value2_B</VAL2>
+                <VAL3>Value3_C</VAL3>
+            </ELEMENT2A_A>
+            <VAL4>Value4_ZZ</VAL4> 
+        </ELEMENT2A>
+        <VALLL>Valll</VALLL>
+        <TEST>Test</TEST>
+        <EMPTY></EMPTY>
+    </ELEMENT1> 
+ </IDOC>
+  
+</TEST_DOCUMENT>

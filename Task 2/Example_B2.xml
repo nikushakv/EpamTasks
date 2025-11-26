@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootElement xmlns="epam.com">
+    <Child_Element Code="B2">Child_Element_Value</Child_Element>
+</RootElement>

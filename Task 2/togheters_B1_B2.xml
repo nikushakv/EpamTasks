@@ -1,0 +1,9 @@
+<All>
+  <ns0:RootElement xmlns:ns0="epam.com">
+      <Child_Element Code="B1">Child_Element_Value</Child_Element>
+  </ns0:RootElement>
+
+  <RootElement xmlns="epam.com">
+      <Child_Element Code="B2">Child_Element_Value</Child_Element>
+  </RootElement>
+</All>
